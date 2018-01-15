@@ -1,0 +1,55 @@
+  h1{
+    text-align: center
+  }
+
+  h1, h2{
+    margin: 0.8em;
+  }
+  
+  body{
+    margin-left: 10%;
+  }
+
+  .workExperience{
+    font-style: italic;
+    font-size: 1.2em;
+    padding: 5%;
+  }
+
+  .border{
+    border: medium dashed orange;
+    padding: 10%;
+    margin: 5%;
+  }
+
+  /**
+  Style declarations for the skill bars.
+  **/
+  .container{
+    width: 100%;
+    background-color: #ddd;
+  }
+
+.skills{
+  text-align: right;
+  padding-right: 20px;
+  line-height: 40px;
+  color: white;
+  font-weight: bold;
+  font: helvetica;
+  font-size: 1.5em;
+}
+
+.html{
+  width: 60%; background-color:  #c938da;
+}
+
+.javascript{
+width: 50%;
+background-color:  #15bde3;
+}
+
+.webdesign{
+  width: 80%;
+  background-color:  #6ba50b;
+}
