@@ -1,3 +1,28 @@
+
+  .navbar{
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0.8;
+
+  }
+
+  .navbar a{
+    font-size: 200%;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 3%;
+    padding: 0% 3%;
+  }
+
+  .navbar a:hover{
+    background-color: white;
+    color: black;
+  }
+
+
   h1{
     text-align: center
   }
@@ -5,10 +30,12 @@
   h1, h2{
     margin: 0.8em;
   }
-  
-  body{
-    margin-left: 10%;
-  }
+
+
+body {
+    background: white url("photo.png") no-repeat top right;
+}
+
 
   .workExperience{
     font-style: italic;
@@ -40,8 +67,10 @@
   font-size: 1.5em;
 }
 
+
 .html{
-  width: 60%; background-color:  #c938da;
+  width: 60%;
+  background-color:  #c938da;
 }
 
 .javascript{
